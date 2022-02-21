@@ -1,0 +1,17 @@
+#bars {
+  display: flex;
+  height: 75vh;
+  /* width: 100px; */
+  /* box-sizing: 500px; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.flex-item {
+  background-color: cyan;
+  width: 2px;
+  display: inline-flex;
+  margin: 2px;
+  border-radius: 30px;
+}

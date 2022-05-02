@@ -22,77 +22,46 @@ export default function Header() {
     delbar();
     Body(document.getElementById("arr_siz").value);
   };
+
   return (
+
     <div className="container">
-      <h1 id="title" className="font-effect-outline">
-        Sorting Visualizer
-      </h1>
-      <button className="btn btn-primary" id="new_arr" onClick={NewArr}>
-        New Array
-      </button>
-      <div id="arr_sz">
-        Array Size
-        <input
-          id="arr_siz"
-          type="range"
-          min="5"
-          max="150"
-          defaultValue={150}
-          onChange={ArrSize}
-        />
+
+      <div className="headingTop">
+        <h1 id="title" className="font-effect-outline"> Sorting Visualizer </h1>
       </div>
-      <div id="sort_sp">
-        Sorting Speed
-        <input
-          id="sort_speed"
-          type="range"
-          min="-10"
-          max="100"
-          defaultValue={20}
-        />
+
+      <div className="newInput">
+        <div id="arr_sz">Array Size<input id="arr_siz" type="range" min="5" max="50" defaultValue={50} onChange={ArrSize} /> </div>
+        <button className="btn btn-primary" id="new_arr" onClick={NewArr}>New Array</button>
+        <div id="sort_sp">Sorting Speed <input id="sort_speed" type="range" min="-10" max="100" defaultValue={20} /> </div>
       </div>
-      <button
-        type="submit"
-        id="bubble"
-        onClick={Bubble}
-        className="sorting_btn bs"
-      >
-        BubbleSort
-      </button>
-      <button onClick={Insertion} className="sorting_btn is">
-        InsertionSort
-      </button>
-      <button onClick={MergeSort} className="sorting_btn ms">
-        MergeSort
-      </button>
-      <button onClick={QuickSort} className="sorting_btn qs">
-        QuickSort
-      </button>
-      <button onClick={Selection} className="sorting_btn ss">
-        SelectionSort
-      </button>
-      <button className="sorting_btn hs" onClick={Heap}>
-        HeapSort
-      </button>
+
+      <div className="sortButtons">
+        <button type="submit" id="bubble" onClick={Bubble} className="sorting_btn bs">BubbleSort</button>
+        <button onClick={Insertion} className="sorting_btn is">InsertionSort</button>
+        <button onClick={MergeSort} className="sorting_btn ms">MergeSort</button>
+        <button onClick={QuickSort} className="sorting_btn qs">QuickSort</button>
+        <button onClick={Selection} className="sorting_btn ss">SelectionSort</button>
+        <button className="sorting_btn hs" onClick={Heap}>HeapSort</button>
+      </div>
+      
+
       <div className="container_sort_time" id="sorter">
         <div id="time">
           <div className="sort_title">Sorting Time</div>
-          {/* <br /> */}
-          <span className="digit" id="min">
-            00
-          </span>
+          <span className="digit" id="min">00</span>
           <span className="txt">:</span>
-          <span className="digit" id="sec">
-            00
-          </span>
+          <span className="digit" id="sec">00</span>
           <span className="txt">:</span>
-          <span className="digit dig_mili" id="count">
-            00
-          </span>
+          <span className="digit dig_mili" id="count">00</span>
         </div>
       </div>
+
       <div id="bars"></div>
+
     </div>
-    // </div>
+    
   );
+
 }

@@ -1,5 +1,5 @@
 import "../Styles/Body.css";
-export default function Body(noofbars = 150) {
+export default function Body(noofbars =50) {
   const min = 5;
   const max = 350;
   const bars = document.querySelector("#bars");

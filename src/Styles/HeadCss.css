@@ -155,22 +155,7 @@
     border-color: #858181;
     cursor: default;
   }
-  .hs {
-    border: 2px solid blueviolet;
-  }
-  .hs:hover {
-    background: blueviolet;
-    border-color: white;
-    color: white;
-  }
-  .hs:disabled {
-    color: #a7a3a3;
-    background-color: #858181;
-    border-color: #858181;
-    cursor: default;
-  }
-
-
+ 
   .container_sort_time {
     align-items: center;
     margin: 2vw;
@@ -352,22 +337,7 @@
     border-color: #858181;
     cursor: default;
   }
-  .hs {
-    border: 2px solid blueviolet;
-  }
-  .hs:hover {
-    background: blueviolet;
-    border-color: white;
-    color: white;
-  }
-  .hs:disabled {
-    color: #a7a3a3;
-    background-color: #858181;
-    border-color: #858181;
-    cursor: default;
-  }
-
-
+ 
   .container_sort_time {
     align-items: center;
     margin-top:1vw;
@@ -559,21 +529,6 @@
     border-color: #858181;
     cursor: default;
   }
-  .hs {
-    border: 2px solid blueviolet;
-  }
-  .hs:hover {
-    background: blueviolet;
-    border-color: white;
-    color: white;
-  }
-  .hs:disabled {
-    color: #a7a3a3;
-    background-color: #858181;
-    border-color: #858181;
-    cursor: default;
-  }
-
 
   .container_sort_time {
     align-items: center;
@@ -758,20 +713,6 @@
     color: rgb(2, 2, 2);
   }
   .ss:disabled {
-    color: #a7a3a3;
-    background-color: #858181;
-    border-color: #858181;
-    cursor: default;
-  }
-  .hs {
-    border: 2px solid blueviolet;
-  }
-  .hs:hover {
-    background: blueviolet;
-    border-color: white;
-    color: white;
-  }
-  .hs:disabled {
     color: #a7a3a3;
     background-color: #858181;
     border-color: #858181;

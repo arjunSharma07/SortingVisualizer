@@ -12,7 +12,6 @@ export function Wait(milisec) {
 }
 export function disable() {
   document.querySelector("#new_arr").disabled = true;
-  document.querySelector(".sorting_btn.hs").disabled = true;
   document.querySelector(".sorting_btn.bs").disabled = true;
   document.querySelector(".sorting_btn.is").disabled = true;
   document.querySelector(".sorting_btn.ms").disabled = true;
@@ -22,7 +21,6 @@ export function disable() {
 }
 export function enable() {
   document.querySelector("#new_arr").disabled = false;
-  document.querySelector(".sorting_btn.hs").disabled = false;
   document.querySelector(".sorting_btn.bs").disabled = false;
   document.querySelector(".sorting_btn.is").disabled = false;
   document.querySelector(".sorting_btn.ms").disabled = false;

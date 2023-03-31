@@ -6,7 +6,6 @@ import Insertion from "../Algorithms/Insertion";
 import Selection from "../Algorithms/Selection";
 import QuickSort from "../Algorithms/QuickSort";
 import MergeSort from "../Algorithms/MergeSort";
-import Heap from "../Algorithms/HeapSort";
 import { reset } from "./OtherFunc";
 
 export default function Header() {
@@ -43,7 +42,6 @@ export default function Header() {
         <button onClick={MergeSort} className="sorting_btn ms">MergeSort</button>
         <button onClick={QuickSort} className="sorting_btn qs">QuickSort</button>
         <button onClick={Selection} className="sorting_btn ss">SelectionSort</button>
-        <button className="sorting_btn hs" onClick={Heap}>HeapSort</button>
       </div>
       
 
